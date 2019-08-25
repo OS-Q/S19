@@ -1,27 +1,3 @@
-/*
- * Portions of this file come from OpenMV project (see sensor_* functions in the end of file)
- * Here is the copyright for these parts:
- * This file is part of the OpenMV project.
- * Copyright (c) 2013/2014 Ibrahim Abdelkader <i.abdalkader@gmail.com>
- * This work is licensed under the MIT license, see the file LICENSE for details.
- *
- *
- * Rest of the functions are licensed under Apache license as found below:
- */
-
-// Copyright 2015-2016 Espressif Systems (Shanghai) PTE LTD
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -54,7 +30,7 @@
 #include "ov7725.h"
 #endif
 
-#define ENABLE_TEST_PATTERN CONFIG_ENABLE_TEST_PATTERN
+//#define ENABLE_TEST_PATTERN CONFIG_ENABLE_TEST_PATTERN
 
 #define REG_PID        0x0A
 #define REG_VER        0x0B
