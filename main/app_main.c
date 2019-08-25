@@ -28,7 +28,7 @@ static void handle_jpg_stream(http_context_t http_ctx, void* ctx);
 static esp_err_t event_handler(void *ctx, system_event_t *event);
 static void initialise_wifi(void);
 
-static const char* TAG = "ESP32QR";
+static const char* TAG = "ESP32CAM";
 
 static const char* STREAM_CONTENT_TYPE =
         "multipart/x-mixed-replace; boundary=123456789000000000000987654321";
@@ -42,6 +42,9 @@ static camera_pixelformat_t s_pixel_format;
 
 #define CAMERA_PIXEL_FORMAT CAMERA_PF_JPEG
 #define CAMERA_FRAME_SIZE CAMERA_FS_SVGA
+
+//#define CAMERA_PIXEL_FORMAT CAMERA_PF_GRAYSCALE
+//#define CAMERA_FRAME_SIZE CAMERA_FS_QVGA
 
 void app_main()
 {
