@@ -1,14 +1,20 @@
-﻿# [CAM](https://github.com/OS-Q/S19)
-[![sites](OS-Q/qitas.png)](http://www.OS-Q.com)
-#### 关联开发平台：[H10](https://github.com/OS-Q/H10)
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+﻿# [无线相机单元](https://github.com/OS-Q/W45)
 
-[EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> S[60]
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-### [方案描述](https://github.com/OS-Q/S19/wiki)
+* Q[4] - M[12] - W[52] - D[365] - H[24] - N[60] - S[60]
 
-[CAM](https://github.com/OS-Q/S19)用于获取图像和视频
+### [workspace描述](https://github.com/OS-Q/W45/wiki)
 
+[无线相机单元](https://github.com/OS-Q/W45)基于WiFi的CAM
 
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/S19)
-####  2019-8-25
+### [开放资源](https://github.com/OS-Q/)
+
+* [文档](docs/)
+* [工程](project/)
+
+### [相关硬件](https://github.com/SoCXin)
+
+* [ESP32](https://github.com/SoCXin/ESP32)
+
+### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/W45)
