@@ -1,20 +1,54 @@
-﻿# [无线相机单元](https://github.com/OS-Q/W45)
+# ESP32-CAM
 
-[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
+The goal of this repository is to centralize information and examples for the ESP32-CAM A.I. Thinker.
 
-* Q[4] - M[12] - W[52] - D[365] - H[24] - N[60] - S[60]
+> <img src="https://www.open-electronics.org/wp-content/uploads/2018/10/ESP32-CAM.jpg" width="auto" height="200" alt="ESP32-CAM - A.I. Thinker" /><br/>
+> ESP32-CAM A.I. Thinker usually sells with OV2640 sensor
 
-### [workspace描述](https://github.com/OS-Q/W45/wiki)
 
-[无线相机单元](https://github.com/OS-Q/W45)基于WiFi的CAM
+# Flashing
 
-### [开放资源](https://github.com/OS-Q/)
+## Requirements
 
-* [文档](docs/)
-* [工程](project/)
+To flash the board you need a USB to TTL dongle.
 
-### [相关硬件](https://github.com/SoCXin)
+Also it is very important to **use a external power supply**. USBs usually do not provide sufficient current which makes the board loops `brownout` errors.
 
-* [ESP32](https://github.com/SoCXin/ESP32)
 
-### [OS-Q = Open Solutions | Open Source | Operating System ](http://www.OS-Q.com/W45)
+## Instructions
+
+When flashing:
+
+1. turn the board down
+2. hold the reset button (short `GPIO0` to `GND`)
+3. turn the board on
+
+When booting to run your sketch, keep `GPIO0` open.
+
+This board also has a built in reset button.
+
+# Capabilities
+
+This board and the included OV2640 can acomplish the following:
+
+- External 64MBit PSRAM
+- Embeed flash light
+- Sd Card
+  - mount using FatFS
+- Ov2640
+  - Native resolutions:
+    - UXGA
+    - SVGA
+    - CIF
+  - Gain control
+  - Balance control
+  - Windowing
+    - Zoom and panning modes
+    - Sub-sampling mode
+      - Svga
+      - Cif
+  - Frame exposure mode
+  - Output formatter
+    - Scaling image output
+  - Power down mode
+  - Strobe (flash control)
