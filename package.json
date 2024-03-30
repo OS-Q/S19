@@ -1,0 +1,17 @@
+{
+  "name": "tool-agrv_openocd",
+  "version": "1.0.0",
+  "description": "OpenOCD for AgRV devices",
+  "keywords": [
+    "debug",
+    "debugger",
+    "upload",
+    "uploader",
+    "risc-v",
+    "agrv",
+    "agm"
+  ],
+  "system": [
+    "windows_amd64"
+  ]
+}
